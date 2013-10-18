@@ -1,0 +1,36 @@
+{
+    "name": "imageopti",
+    "version": "0.1.0",
+    "auth": "Michiel van Oosten",
+    "email": "mail@axion5.net",
+    "description": "Wrapper for misc. image processors",
+    "repository": {
+	"type": "git",
+	"url": "git://github.com/michieljoris/imageopti"
+    },
+    "keywords": [
+	"image",
+	"optimize"
+    ],
+    "dependencies": {
+	"colors": "*",
+	"node-smushit": "*",
+	"gm": "*",
+	"tmp": "*",
+	"which": "*",
+	"filesize": "*",
+	"fs-extra": "*"
+    },
+    "bugs": {
+	"url": "https://github.com/michieljoris/http-server/issues"
+    },
+    "analyze": false,
+    "preferGlobal": "true",
+    "main": "./lib/bb-server",
+    "scripts": {
+	"start": "./bin/bb-server"
+    },
+    "bin": {
+	"bb-server": "./bin/bb-server"
+    }
+}
